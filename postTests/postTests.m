@@ -6,6 +6,8 @@
 //  Copyright (c) 2013年 KUKIMOTO Nobuyuki. All rights reserved.
 //
 
+//test 今日
+
 #import "postTests.h"
 
 @implementation postTests

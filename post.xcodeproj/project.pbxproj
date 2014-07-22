@@ -23,6 +23,7 @@
 		CC1CFD8D171974EB00AD0365 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC1CFD8B171974EB00AD0365 /* InfoPlist.strings */; };
 		CC1CFD90171974EB00AD0365 /* postTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1CFD8F171974EB00AD0365 /* postTests.m */; };
 		CC1CFD9A1719751600AD0365 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1CFD991719751600AD0365 /* main.m */; };
+		CCE287A4197E3CBF003BF1E8 /* HITCtest.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE287A3197E3CBF003BF1E8 /* HITCtest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		CC1CFD8E171974EB00AD0365 /* postTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = postTests.h; sourceTree = "<group>"; };
 		CC1CFD8F171974EB00AD0365 /* postTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = postTests.m; sourceTree = "<group>"; };
 		CC1CFD991719751600AD0365 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../../PostIMG/main.m; sourceTree = "<group>"; };
+		CCE287A2197E3CBF003BF1E8 /* HITCtest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HITCtest.h; sourceTree = "<group>"; };
+		CCE287A3197E3CBF003BF1E8 /* HITCtest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HITCtest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +126,8 @@
 				CC1CFD79171974EB00AD0365 /* HITCViewController.h */,
 				CC1CFD7A171974EB00AD0365 /* HITCViewController.m */,
 				CC1CFD65171974EB00AD0365 /* Supporting Files */,
+				CCE287A2197E3CBF003BF1E8 /* HITCtest.h */,
+				CCE287A3197E3CBF003BF1E8 /* HITCtest.m */,
 			);
 			path = post;
 			sourceTree = "<group>";
@@ -272,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC1CFD6F171974EB00AD0365 /* HITCAppDelegate.m in Sources */,
+				CCE287A4197E3CBF003BF1E8 /* HITCtest.m in Sources */,
 				CC1CFD7B171974EB00AD0365 /* HITCViewController.m in Sources */,
 				CC1CFD9A1719751600AD0365 /* main.m in Sources */,
 			);
@@ -454,6 +460,7 @@
 				CC1CFD95171974EB00AD0365 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CC1CFD96171974EB00AD0365 /* Build configuration list for PBXNativeTarget "postTests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +469,7 @@
 				CC1CFD98171974EB00AD0365 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
