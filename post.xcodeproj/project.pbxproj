@@ -11,7 +11,6 @@
 		CC1CFD61171974EB00AD0365 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC1CFD60171974EB00AD0365 /* Foundation.framework */; };
 		CC1CFD63171974EB00AD0365 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC1CFD62171974EB00AD0365 /* CoreGraphics.framework */; };
 		CC1CFD69171974EB00AD0365 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC1CFD67171974EB00AD0365 /* InfoPlist.strings */; };
-		CC1CFD6B171974EB00AD0365 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1CFD6A171974EB00AD0365 /* main.m */; };
 		CC1CFD6F171974EB00AD0365 /* HITCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1CFD6E171974EB00AD0365 /* HITCAppDelegate.m */; };
 		CC1CFD71171974EB00AD0365 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CC1CFD70171974EB00AD0365 /* Default.png */; };
 		CC1CFD73171974EB00AD0365 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CC1CFD72171974EB00AD0365 /* Default@2x.png */; };
@@ -23,6 +22,7 @@
 		CC1CFD85171974EB00AD0365 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC1CFD60171974EB00AD0365 /* Foundation.framework */; };
 		CC1CFD8D171974EB00AD0365 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CC1CFD8B171974EB00AD0365 /* InfoPlist.strings */; };
 		CC1CFD90171974EB00AD0365 /* postTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1CFD8F171974EB00AD0365 /* postTests.m */; };
+		CC1CFD9A1719751600AD0365 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1CFD991719751600AD0365 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +42,6 @@
 		CC1CFD62171974EB00AD0365 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		CC1CFD66171974EB00AD0365 /* post-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "post-Info.plist"; sourceTree = "<group>"; };
 		CC1CFD68171974EB00AD0365 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		CC1CFD6A171974EB00AD0365 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CC1CFD6C171974EB00AD0365 /* post-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "post-Prefix.pch"; sourceTree = "<group>"; };
 		CC1CFD6D171974EB00AD0365 /* HITCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HITCAppDelegate.h; sourceTree = "<group>"; };
 		CC1CFD6E171974EB00AD0365 /* HITCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HITCAppDelegate.m; sourceTree = "<group>"; };
@@ -58,6 +57,7 @@
 		CC1CFD8C171974EB00AD0365 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CC1CFD8E171974EB00AD0365 /* postTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = postTests.h; sourceTree = "<group>"; };
 		CC1CFD8F171974EB00AD0365 /* postTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = postTests.m; sourceTree = "<group>"; };
+		CC1CFD991719751600AD0365 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../../PostIMG/main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,7 +132,7 @@
 			children = (
 				CC1CFD66171974EB00AD0365 /* post-Info.plist */,
 				CC1CFD67171974EB00AD0365 /* InfoPlist.strings */,
-				CC1CFD6A171974EB00AD0365 /* main.m */,
+				CC1CFD991719751600AD0365 /* main.m */,
 				CC1CFD6C171974EB00AD0365 /* post-Prefix.pch */,
 				CC1CFD70171974EB00AD0365 /* Default.png */,
 				CC1CFD72171974EB00AD0365 /* Default@2x.png */,
@@ -271,9 +271,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC1CFD6B171974EB00AD0365 /* main.m in Sources */,
 				CC1CFD6F171974EB00AD0365 /* HITCAppDelegate.m in Sources */,
 				CC1CFD7B171974EB00AD0365 /* HITCViewController.m in Sources */,
+				CC1CFD9A1719751600AD0365 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
